@@ -1,0 +1,65 @@
+{
+    "name": "fy97/validation",
+    "description": "Laravel Validation 完美移植版",
+    "keywords": [
+        "validation",
+        "validate",
+        "laravel validation"
+    ],
+    "authors": [
+        {
+            "name": "Fy",
+            "email": "mryfan@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fy\\Doctrine\\Inflector\\": "src/doctrine/inflector/lib/Doctrine/Inflector",
+            "Fy\\Doctrine\\Common\\Lexer\\": "src/doctrine/lexer/lib/Doctrine/Common/Lexer",
+            "Fy\\Egulias\\EmailValidator\\": "src/egulias/email-validator/src",
+            "Fy\\Illuminate\\Support\\": [
+                "src/illuminate/collections",
+                "src/illuminate/macroable",
+                "src/illuminate/support",
+                "src/provide/support"
+            ],
+            "Fy\\Illuminate\\Container\\": "src/illuminate/container",
+            "Fy\\Illuminate\\Contracts\\": "src/illuminate/contracts",
+            "Fy\\Illuminate\\Filesystem\\": "src/illuminate/filesystem",
+            "Fy\\Illuminate\\Translation\\": "src/illuminate/translation",
+            "Fy\\Illuminate\\Validation\\": "src/illuminate/validation",
+            "Fy\\Carbon\\": "src/nesbot/carbon/src/Carbon/",
+            "Fy\\Psr\\Container\\": "src/psr/container/src/",
+            "Fy\\Psr\\SimpleCache\\": "src/psr/simple-cache/src/",
+            "Fy\\Symfony\\Component\\Finder\\": "src/symfony/finder",
+            "Fy\\Symfony\\Component\\HttpFoundation\\": "src/symfony/http-foundation",
+            "Fy\\Symfony\\Component\\Mime\\": "src/symfony/mime",
+            "Fy\\Symfony\\Polyfill\\Intl\\Idn\\": "src/symfony/polyfill-intl-idn",
+            "Fy\\Symfony\\Polyfill\\Intl\\Normalizer\\": "src/symfony/polyfill-intl-normalizer",
+            "Fy\\Symfony\\Polyfill\\Mbstring\\": "src/symfony/polyfill-mbstring",
+            "Fy\\Symfony\\Polyfill\\Php72\\": "src/symfony/polyfill-php72",
+            "Fy\\Symfony\\Polyfill\\Php80\\": "src/symfony/polyfill-php80",
+            "Fy\\Symfony\\Component\\Translation\\": "src/symfony/translation",
+            "Fy\\Symfony\\Contracts\\Translation\\": "src/symfony/translation-contracts",
+            "Fy\\voku\\": "src/voku/portable-ascii/src/voku/",
+            "LumenV\\": "src/provide"
+        },
+        "files": [
+            "src/illuminate/collections/helpers.php",
+            "src/illuminate/support/helpers.php",
+            "src/symfony/deprecation-contracts/function.php",
+            "src/symfony/polyfill-intl-idn/bootstrap.php",
+            "src/symfony/polyfill-intl-normalizer/bootstrap.php",
+            "src/symfony/polyfill-mbstring/bootstrap.php",
+            "src/symfony/polyfill-php72/bootstrap.php",
+            "src/symfony/polyfill-php80/bootstrap.php",
+            "src/symfony/translation/Resources/functions.php"
+        ],
+        "exclude-from-classmap": [],
+        "classmap": []
+    }
+}

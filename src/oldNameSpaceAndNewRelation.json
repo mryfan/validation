@@ -1,0 +1,133 @@
+{
+    "all": [
+        {
+            "Doctrine\\Inflector\\": "Fy\\Doctrine\\Inflector\\"
+        },
+        {
+            "Doctrine\\Common\\Lexer\\": "Fy\\Doctrine\\Common\\Lexer\\"
+        },
+        {
+            "Egulias\\EmailValidator\\": "Fy\\Egulias\\EmailValidator\\"
+        },
+        {
+            "Illuminate\\Support\\": "Fy\\Illuminate\\Support\\"
+        },
+        {
+            "Illuminate\\Container\\": "Fy\\Illuminate\\Container\\"
+        },
+        {
+            "Illuminate\\Contracts\\": "Fy\\Illuminate\\Contracts\\"
+        },
+        {
+            "Illuminate\\Filesystem\\": "Fy\\Illuminate\\Filesystem\\"
+        },
+        {
+            "Illuminate\\Support\\": "Fy\\Illuminate\\Support\\"
+        },
+        {
+            "Illuminate\\Support\\": "Fy\\Illuminate\\Support\\"
+        },
+        {
+            "Illuminate\\Translation\\": "Fy\\Illuminate\\Translation\\"
+        },
+        {
+            "Illuminate\\Validation\\": "Fy\\Illuminate\\Validation\\"
+        },
+        {
+            "Carbon\\": "Fy\\Carbon\\"
+        },
+        {
+            "Psr\\Container\\": "Fy\\Psr\\Container\\"
+        },
+        {
+            "Psr\\SimpleCache\\": "Fy\\Psr\\SimpleCache\\"
+        },
+        {
+            "Symfony\\Component\\Finder\\": "Fy\\Symfony\\Component\\Finder\\"
+        },
+        {
+            "Symfony\\Component\\HttpFoundation\\": "Fy\\Symfony\\Component\\HttpFoundation\\"
+        },
+        {
+            "Symfony\\Component\\Mime\\": "Fy\\Symfony\\Component\\Mime\\"
+        },
+        {
+            "Symfony\\Polyfill\\Intl\\Idn\\": "Fy\\Symfony\\Polyfill\\Intl\\Idn\\"
+        },
+        {
+            "Symfony\\Polyfill\\Intl\\Normalizer\\": "Fy\\Symfony\\Polyfill\\Intl\\Normalizer\\"
+        },
+        {
+            "Symfony\\Polyfill\\Mbstring\\": "Fy\\Symfony\\Polyfill\\Mbstring\\"
+        },
+        {
+            "Symfony\\Polyfill\\Php72\\": "Fy\\Symfony\\Polyfill\\Php72\\"
+        },
+        {
+            "Symfony\\Polyfill\\Php80\\": "Fy\\Symfony\\Polyfill\\Php80\\"
+        },
+        {
+            "Symfony\\Component\\Translation\\": "Fy\\Symfony\\Component\\Translation\\"
+        },
+        {
+            "Symfony\\Contracts\\Translation\\": "Fy\\Symfony\\Contracts\\Translation\\"
+        },
+        {
+            "voku\\": "Fy\\voku\\"
+        }
+    ],
+    "old": [
+        "Doctrine\\Inflector",
+        "Doctrine\\Common\\Lexer",
+        "Egulias\\EmailValidator",
+        "Illuminate\\Support",
+        "Illuminate\\Container",
+        "Illuminate\\Contracts",
+        "Illuminate\\Filesystem",
+        "Illuminate\\Support",
+        "Illuminate\\Support",
+        "Illuminate\\Translation",
+        "Illuminate\\Validation",
+        "Carbon",
+        "Psr\\Container",
+        "Psr\\SimpleCache",
+        "Symfony\\Component\\Finder",
+        "Symfony\\Component\\HttpFoundation",
+        "Symfony\\Component\\Mime",
+        "Symfony\\Polyfill\\Intl\\Idn",
+        "Symfony\\Polyfill\\Intl\\Normalizer",
+        "Symfony\\Polyfill\\Mbstring",
+        "Symfony\\Polyfill\\Php72",
+        "Symfony\\Polyfill\\Php80",
+        "Symfony\\Component\\Translation",
+        "Symfony\\Contracts\\Translation",
+        "voku"
+    ],
+    "new": [
+        "Fy\\Doctrine\\Inflector",
+        "Fy\\Doctrine\\Common\\Lexer",
+        "Fy\\Egulias\\EmailValidator",
+        "Fy\\Illuminate\\Support",
+        "Fy\\Illuminate\\Container",
+        "Fy\\Illuminate\\Contracts",
+        "Fy\\Illuminate\\Filesystem",
+        "Fy\\Illuminate\\Support",
+        "Fy\\Illuminate\\Support",
+        "Fy\\Illuminate\\Translation",
+        "Fy\\Illuminate\\Validation",
+        "Fy\\Carbon",
+        "Fy\\Psr\\Container",
+        "Fy\\Psr\\SimpleCache",
+        "Fy\\Symfony\\Component\\Finder",
+        "Fy\\Symfony\\Component\\HttpFoundation",
+        "Fy\\Symfony\\Component\\Mime",
+        "Fy\\Symfony\\Polyfill\\Intl\\Idn",
+        "Fy\\Symfony\\Polyfill\\Intl\\Normalizer",
+        "Fy\\Symfony\\Polyfill\\Mbstring",
+        "Fy\\Symfony\\Polyfill\\Php72",
+        "Fy\\Symfony\\Polyfill\\Php80",
+        "Fy\\Symfony\\Component\\Translation",
+        "Fy\\Symfony\\Contracts\\Translation",
+        "Fy\\voku"
+    ]
+}
