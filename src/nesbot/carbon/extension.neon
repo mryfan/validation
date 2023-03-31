@@ -1,0 +1,5 @@
+services:
+    -
+        class: Fy97Validation\Carbon\PHPStan\MacroExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension

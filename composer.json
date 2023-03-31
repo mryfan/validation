@@ -1,0 +1,53 @@
+{
+    "name": "fy97/validation",
+    "description": "这是一个打包第三方composer开源包的工具，目的是为了避免composer内冲突",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mryfan",
+            "email": "1301747127@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Fy97Validation\\Brick\\Math\\": "/src/brick/math/src",
+            "Fy97Validation\\Doctrine\\Deprecations\\": "/src/doctrine/deprecations/lib/Doctrine/Deprecations",
+            "Fy97Validation\\Doctrine\\Inflector\\": "/src/doctrine/inflector/lib/Doctrine/Inflector",
+            "Fy97Validation\\Doctrine\\Common\\Lexer\\": "/src/doctrine/lexer/src",
+            "Fy97Validation\\Egulias\\EmailValidator\\": "/src/egulias/email-validator/src",
+            "Fy97Validation\\Illuminate\\Support\\": [
+                "/src/illuminate/collections",
+                "/src/illuminate/conditionable",
+                "/src/illuminate/macroable",
+                "/src/illuminate/support"
+            ],
+            "Fy97Validation\\Illuminate\\Container\\": "/src/illuminate/container",
+            "Fy97Validation\\Illuminate\\Contracts\\": "/src/illuminate/contracts",
+            "Fy97Validation\\Illuminate\\Filesystem\\": "/src/illuminate/filesystem",
+            "Fy97Validation\\Illuminate\\Translation\\": "/src/illuminate/translation",
+            "Fy97Validation\\Illuminate\\Validation\\": "/src/illuminate/validation",
+            "Fy97Validation\\Carbon\\": "/src/nesbot/carbon/src/Carbon",
+            "Fy97Validation\\Psr\\Container\\": "/src/psr/container/src",
+            "Fy97Validation\\Psr\\SimpleCache\\": "/src/psr/simple-cache/src",
+            "Fy97Validation\\Symfony\\Component\\Finder\\": "/src/symfony/finder",
+            "Fy97Validation\\Symfony\\Component\\HttpFoundation\\": "/src/symfony/http-foundation",
+            "Fy97Validation\\Symfony\\Component\\Mime\\": "/src/symfony/mime",
+            "Fy97Validation\\Symfony\\Polyfill\\Intl\\Idn\\": "/src/symfony/polyfill-intl-idn",
+            "Fy97Validation\\Symfony\\Polyfill\\Intl\\Normalizer\\": "/src/symfony/polyfill-intl-normalizer",
+            "Fy97Validation\\Symfony\\Polyfill\\Mbstring\\": "/src/symfony/polyfill-mbstring",
+            "Fy97Validation\\Symfony\\Polyfill\\Php72\\": "/src/symfony/polyfill-php72",
+            "Fy97Validation\\Symfony\\Polyfill\\Php80\\": "/src/symfony/polyfill-php80",
+            "Fy97Validation\\Symfony\\Component\\Translation\\": "/src/symfony/translation",
+            "Fy97Validation\\Symfony\\Contracts\\Translation\\": "/src/symfony/translation-contracts",
+            "Fy97Validation\\voku\\": "/src/voku/portable-ascii/src/voku",
+            "Fy97Validation\\symfony\\deprecation_contracts\\": "/src/symfony/deprecation-contracts",
+            "Fy97Validation\\Symfony\\Component\\Translation\\Resources\\": "/src/symfony/translation",
+            "Fy97Validation\\Provide\\": "provide"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "php": "^7.3|^8.0"
+    }
+}
